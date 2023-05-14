@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/modern-normalize.css" />
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/fonts.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <title>hw1</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <a class="header__logo logo" href="/">
+                    <svg class="logo__icon">
+                        <use href="./img/symbol-defs.svg#icon-logo"></use>
+                    </svg>
+                </a>
+                <nav class="header__nav main_nav">
+                    <ul class="main_nav__list">
+                        <li class="main_nav__item">
+                            <a href="" class="main_nav__link">Why Alivio</a>
+                        </li>
+                        <li class="main_nav__item">
+                            <a href="" class="main_nav__link">Solutions</a>
+                        </li>
+                        <li class="main_nav__item">
+                            <a href="" class="main_nav__link">Community</a>
+                        </li>
+                        <li class="main_nav__item">
+                            <a href="" class="main_nav__link">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__user_control_panel user_control_panel">
+                    <li class="user_control_panel__item">
+                        <button
+                            type="button"
+                            class="button button--secondary user_control_panel__button"
+                        >
+                            Sign in
+                        </button>
+                    </li>
+                    <li class="user_control_panel__item">
+                        <button
+                            type="button"
+                            class="button button--primary user_control_panel__button"
+                        >
+                            Start Trial
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Be aware, Manage well.</h1>
+                <p class="hero__description">
+                    Everyone experiences stress in different ways. Let Alivio
+                    guide you, in a personalized journal experience, to overcome
+                    your stress.
+                </p>
+                <button
+                    type="button"
+                    class="button--large button button--primary"
+                >
+                    Find Your Way
+                </button>
+            </div>
+        </section>
+        <section class="principles">
+            <div class="container">
+                <div class="principles__wrapper">
+                    <div>
+                        <h2 class="principles__title">How it works</h2>
+                        <h3 class="principles__subtitle">
+                            Understand & Release the stress in 3 steps
+                        </h3>
+                    </div>
+                    <p class="principles__overview">
+                        Alivio offers as many journals it takes, tackling
+                        different areas such as anxiety, overwhelmedness,
+                        sadness, or anger, and a variety of personal causes, to
+                        help you become aware of your emotions, and guide you in
+                        how to manage stress.
+                    </p>
+                </div>
+                <ul class="principles__list">
+                    <li class="principles__item">
+                        <article class="principles__card principe">
+                            <h4 data-number="01" class="principe__title">
+                                Personalize
+                            </h4>
+
+                            <p class="principe__description">
+                                Answer a quick survey about how you express
+                                yourself, what causes you stress, and what area
+                                would you like to work on. This way, we can
+                                fully personalize your journal!
+                            </p>
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./img/principles/webp/1.webp     390w,
+                                        ./img/principles/webp/1@2x.webp  780w,
+                                        ./img/principles/webp/1@3x.webp 1170w
+                                    "
+                                    type="image/webp"
+                                    37
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                                <img
+                                    class="principe__image"
+                                    srcset="
+                                        ./img/principles/jpg/1.jpg     390w,
+                                        ./img/principles/jpg/1@2x.jpg  780w,
+                                        ./img/principles/jpg/1@3x.jpg 1170w
+                                    "
+                                    src="./img/principles/jpg/1.jpg"
+                                    alt="Personalize"
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                            </picture>
+                        </article>
+                    </li>
+                    <li class="principles__item">
+                        <article class="principles__card principe">
+                            <h4 data-number="02" class="principe__title">
+                                Write & Understand
+                            </h4>
+                            <p class="principe__description">
+                                Write, draw, reflect, understand. Alivio will
+                                guide you through the prompts and will help you
+                                manage your stress!
+                            </p>
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./img/principles/webp/2.webp     390w,
+                                        ./img/principles/webp/2@2x.webp  780w,
+                                        ./img/principles/webp/2@3x.webp 1170w
+                                    "
+                                    type="image/webp"
+                                    37
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                                <img
+                                    class="principe__image"
+                                    srcset="
+                                        ./img/principles/jpg/2.jpg     390w,
+                                        ./img/principles/jpg/2@2x.jpg  780w,
+                                        ./img/principles/jpg/2@3x.jpg 1170w
+                                    "
+                                    src="./img/principles/jpg/2.jpg"
+                                    alt="notebook"
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                            </picture>
+                        </article>
+                    </li>
+                    <li class="principles__item">
+                        <article class="principles__card principe">
+                            <h4 data-number="03" class="principe__title">
+                                Alivio!
+                            </h4>
+                            <p class="principe__description">
+                                Now you are aware, and have a way to manage and
+                                overcome your own stress. What are you waiting
+                                for? Alivio today!
+                            </p>
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./img/principles/webp/3.webp     390w,
+                                        ./img/principles/webp/3@2x.webp  780w,
+                                        ./img/principles/webp/3@3x.webp 1170w
+                                    "
+                                    type="image/webp"
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                                <img
+                                    class="principe__image"
+                                    srcset="
+                                        ./img/principles/jpg/3.jpg     390w,
+                                        ./img/principles/jpg/3@2x.jpg  780w,
+                                        ./img/principles/jpg/3@3x.jpg 1170w
+                                    "
+                                    src="./img/principles/jpg/3.jpg"
+                                    alt="Personalize"
+                                    sizes="(min-width: 1370px) 33vw,(min-width: 768px) 50vw, 100vw"
+                                />
+                            </picture>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="achievers">
+            <div class="container">
+                <div class="achievers_content_wrapper">
+                    <h2 class="achievers__title">
+                        Let's hear about Kayla's success story
+                    </h2>
+                    <h3 class="achievers__subtitle">
+                        See how well Alivio works in a real customer’s life.
+                    </h3>
+                    <button
+                        type="button"
+                        class="button--large button button--primary achievers__button"
+                    >
+                        Let’s get started
+                    </button>
+                </div>
+                <div class="achievers_image_wrapper">
+                    <picture>
+                        <source
+                            srcset="
+                                ./img/achievers/webp/1.webp     390w,
+                                ./img/achievers/webp/1@2x.webp  780w,
+                                ./img/achievers/webp/1@3x.webp 1170w
+                            "
+                            type="image/webp"
+                            sizes="(min-width: 1370px) 50vw, 100vw"
+                        />
+                        <img
+                            class="achievers_image"
+                            srcset="
+                                ./img/achievers/jpg/1.jpg     390w,
+                                ./img/achievers/jpg/1@2x.jpg  780w,
+                                ./img/achievers/jpg/1@3x.jpg 1170w
+                            "
+                            src="./img/achievers/jpg/1.jpg"
+                            alt="achievers"
+                            sizes="(min-width: 1370px) 50vw, 100vw"
+                        />
+                    </picture>
+                    <svg class="achievers_icon">
+                        <use href="./img/symbol-defs.svg#icon-video"></use>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products__card product">
+                    <div class="product__wrapper">
+                        <picture>
+                            <img
+                                class="product_image"
+                                srcset="
+                                    ./img/product/png/1.png   420w,
+                                    ./img/product/png/2x.png  840w,
+                                    ./img/product/png/3x.png 1260w
+                                "
+                                src="./img/product/jpg/1.jpg"
+                                alt="person"
+                                sizes="(min-width: 1370px) 50vw, 100vw"
+                            />
+                        </picture>
+                    </div>
+                    <div class="product_meta">
+                        <p class="product__description">Customized For</p>
+                        <div class="product_meta__wrapper">
+                            <picture>
+                                <img
+                                    class="product_meta_image"
+                                    srcset="
+                                        ./img/product/png/2.png     420w,
+                                        ./img/product/png/2@2x.png  840w,
+                                        ./img/product/png/2@3x.png 1260w
+                                    "
+                                    src="./img/product/jpg/1.jpg"
+                                    alt="person"
+                                />
+                            </picture>
+                        </div>
+                        <p class="product__customer">Mikayla</p>
+                        <h5 class="product__title">Your custom contents</h5>
+                        <ul class="product__list">
+                            <li class="product__item">
+                                Understand Your Stress
+                            </li>
+                            <li class="product__item">Anger Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="products__wrapper">
+                    <h2 class="products__title">Our product</h2>
+                    <h3 class="products__subtitle">
+                        You tell us your stress, We make your diary
+                    </h3>
+                    <p class="products__description">
+                        Everyone experiences it, and in different ways. Let
+                        Alivio guide you, in a personalized journal experience,
+                        to overcome your stress.
+                    </p>
+                    <button
+                        class="button button--large button--primary products__button"
+                    >
+                        Find Your Way
+                    </button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <a class="footer__logo logo" href="/">
+                        <svg class="logo__icon">
+                            <use href="./img/symbol-defs.svg#icon-logo"></use>
+                        </svg>
+                    </a>
+                    <nav class="footer__nav main_nav">
+                        <ul class="main_nav__list">
+                            <li class="main_nav__item">
+                                <a href="" class="main_nav__link">Why Alivio</a>
+                            </li>
+                            <li class="main_nav__item">
+                                <a href="" class="main_nav__link">Solutions</a>
+                            </li>
+                            <li class="main_nav__item">
+                                <a href="" class="main_nav__link">Community</a>
+                            </li>
+                            <li class="main_nav__item">
+                                <a href="" class="main_nav__link">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__wrapper">
+                    <ul class="footer__social social">
+                        <li class="social__item">
+                            <a class="social__link" href="">
+                                <svg class="social__icon">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a
+                                class="social__link--radial social__link"
+                                href=""
+                            >
+                                <svg class="social__icon">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="">
+                                <svg class="social__icon">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__wrapper">
+                    <h2 class="footer__title">Discover our solutions</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link googleplay_link" href="">
+                                <svg class="googleplay_icon">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-google-play"
+                                    ></use>
+                                </svg>
+                                <p class="googleplay__text">
+                                    get it on
+                                    <span class="googleplay__text--big"
+                                        >GOOGLE PLAY</span
+                                    >
+                                </p>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link applestore_link" href="">
+                                <svg class="applestore__icon">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-apple"
+                                    ></use>
+                                </svg>
+                                <p class="applestore__text">
+                                    Available on the
+                                    <span class="applestore__text--bold"
+                                        >Apple Store</span
+                                    >
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
